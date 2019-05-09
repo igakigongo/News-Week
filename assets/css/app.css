@@ -1,0 +1,16 @@
+/* general styles and bootstrap overrides */
+:root{
+  --red: #f00;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  min-width: 320px;
+}
+
+.bg-red {
+  background-color: var(--red)
+}
