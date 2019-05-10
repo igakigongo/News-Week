@@ -1,58 +1,69 @@
 /* default styles */
-.main-nav .container-fluid {
-  display: flex;
-  justify-content: space-between;
+.main-nav {
+	color: var(--white);
+	display: flex;
+	font-family: "Roboto", sans-serif;
 }
+
 .main-nav ul {
 	display: flex;
 	flex-direction: row;
-  justify-content: flex-end;
-  height: 2.5rem;
-  margin-bottom: 0;
-  position: relative;
+	justify-content: flex-end;
+	height: 2.5rem;
+	margin-bottom: 0;
+	position: relative;
 	width: 100%;
 }
 
 .main-nav ul li {
-  align-self: flex-start;
-  color: var(--white);
-  font-family: 'Roboto', sans-serif; 
-  font-size: .875rem;
-  font-weight: 700;
-  letter-spacing: -.5px;
-  margin: .5rem 0 .5rem .5rem;
+	align-self: flex-start;
+	color: var(--white);
+	font-size: 0.875rem;
+	font-weight: 700;
+	letter-spacing: -0.5px;
+	margin: 0.5rem 0 0.5rem 0.5rem;
 }
 
 .main-nav ul li a {
-  color: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  line-height: 1rem;
-  text-transform: uppercase;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: 1rem;
+	text-transform: uppercase;
 }
 
-.main-nav .brand {
-  position: relative;
-}
-
-.main-nav .brand a {
-  bottom: .825rem;
-  height: 1.25rem;
-  position: absolute;
-	width: 8.25rem;
+.main-nav .date {
+	display: none;
 }
 
 .main-nav .subscribe {
-  background-color: var(--white);
-  margin-right: 0;
+	background-color: var(--white);
+	margin-right: 0;
 }
 
 .main-nav .brand svg {
   fill: var(--white);
-  vertical-align: bottom;
+  height: 1.25rem;
+	width: 8.25rem;
 }
 
 .main-nav .subscribe a {
-  color: var(--red);
-  padding: 0 .25rem;
+	color: var(--red);
+	padding: 0 0.25rem;
+}
+
+/* Large viewports and beyond */
+@media (min-width: 992px) {
+
+	.main-nav .date {
+		display: block;
+	}
+
+	.main-nav .side-menu-link {
+		display: none;
+  }
+  
+  .main-nav .subscribe {
+    margin-right: .625rem;
+  }
 }
