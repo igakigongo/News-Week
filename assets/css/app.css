@@ -1,19 +1,19 @@
 /* general styles and bootstrap overrides */
-:root{
-  --red: #f72210;
+:root {
+ --red: #f72210;
 }
 
 html {
-  font-size: 100%;
+ font-size: 100%;
 }
 
 body {
-  background-color: #f4f5f6;
-  color: #333;
-  font-size: 13px;
-  min-width: 320px;
+ background-color: #f4f5f6;
+ color: #333;
+ font-size: 13px;
+ min-width: 320px;
 }
 
 .bg-red {
-  background-color: var(--red)
+ background-color: var(--red)
 }
