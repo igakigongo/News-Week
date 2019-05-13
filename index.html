@@ -89,6 +89,20 @@
 						</li>
 					</ul>
 				</nav>
+				<nav class="navbar links-nav pb-3 pt-3">
+					<ul class="navbar-nav flex-row" id="links-nav">
+						<li><a class="border-left-0 pl-2 pr-3" href="#">U.S.</a></li>
+						<li><a class="px-3" href="#">World</a></li>
+						<li><a class="px-3" href="#">Business</a></li>
+						<li><a class="px-3" href="#">Tech &amp; Science</a></li>
+						<li><a class="px-3" href="#">Culture</a></li>
+						<li><a class="px-3" href="#">Sports</a></li>
+						<li><a class="px-3" href="#">Health</a></li>
+						<li><a class="px-3" href="#">Opinion</a></li>
+						<li><a class="pl-3" href="#">Ndelible</a></li>
+					</ul>
+					<input class="" id="search" type="text" placeholder="Search" />
+				</nav>
 			</div>
 		</div>
 	</header>
@@ -104,6 +118,27 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<script>
+		$(function(){
+
+			var $linksnav = $('#links-nav');
+			var $search = $('#search');
+
+			function hideNavBar(){
+				$search.addClass('w-100');
+				$linksnav.hide();
+			}
+
+			function showNavBar(){
+				$search.removeClass('w-100');
+				$linksnav.show();
+			}
+
+			$search.focusin(hideNavBar);
+			$search.focusout(showNavBar);
+		});
+	</script>
 </body>
 
 </html>
