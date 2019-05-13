@@ -1,4 +1,4 @@
-.main-nav {
+.main-nav, .secondary-nav {
 	color: var(--white);
 	cursor: default;
 	font-family: "Roboto Condensed", sans-serif;
@@ -36,13 +36,87 @@
 	text-transform: uppercase;
 }
 
-.main-nav .subscribe {
+.main-nav .subscribe, .secondary-nav .subscribe {
 	background-color: var(--white);
 	margin-right: 0;
 }
 
-.main-nav .subscribe a {
+.main-nav .subscribe a, .secondary-nav .subscribe a {
 	color: var(--red);
+}
+
+/* Secondary Navbar - Customizations */
+.secondary-nav {
+	cursor: default;
+	padding: 0;
+}
+
+.secondary-nav .navbar {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.secondary-nav .navbar-brand {
+	cursor: pointer;
+	margin: 0;
+	padding: 10px 15px;
+}
+
+.secondary-nav .brand svg {
+	fill: var(--white);
+	height: 4.375rem;
+	width: 24.75rem;
+}
+
+.secondary-nav ul li {
+	color: var(--white);
+	font-size: 0.875rem;
+	font-weight: 700;
+	padding: 6px;
+}
+
+.secondary-nav ul li a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.secondary-nav .date {
+	cursor: text;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.secondary-nav ul:last-child li {
+	font-size: 1.125rem;
+}
+
+.secondary-nav ul:last-child li a {
+	font-size: inherit;
+	text-transform: uppercase;
+}
+
+.secondary-nav .subscribe a::after {
+	border-style: solid;
+  border-width: 0.15em 0.15em 0 0;
+	content: '';
+	display: inline-block;
+	height: .65em;
+	left: 0;
+	position: relative;
+	top: 0.25em;
+	transform: rotate(45deg);
+	vertical-align: top;
+  width: .65em;
+  margin: 0.25rem 0;
+  font-size: 0.875rem;
+  margin-right: .25rem;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+	.secondary-nav {
+		max-width: 100%;
+	}
 }
 
 /* 
@@ -74,15 +148,5 @@
   .main-nav .subscribe a {
     padding: 0 0.75rem;
     line-height: 18px;
-  }
-  
-  .main-nav .date span {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 1rem;
-    letter-spacing: -1px;
-  }
-
-  .main-nav ul li {
-    font-size: 1.125rem;
   }
 } */
