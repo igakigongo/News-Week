@@ -134,3 +134,10 @@
 .links-nav ul li a {
 	border-left: 1px solid #aaa;
 }
+
+.links-nav input[type=text]{
+	font-size: 1.3125rem;
+	font-weight: 100;
+	width: 60px;
+}
+

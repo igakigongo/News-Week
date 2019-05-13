@@ -89,7 +89,7 @@
 						</li>
 					</ul>
 				</nav>
-				<nav class="navbar links-nav pb-3 pt-3">
+				<nav class="navbar links-nav pb-3 pt-3 align-items-start">
 					<ul class="navbar-nav flex-row" id="links-nav">
 						<li><a class="border-left-0 pl-2 pr-3" href="#">U.S.</a></li>
 						<li><a class="px-3" href="#">World</a></li>
@@ -99,9 +99,10 @@
 						<li><a class="px-3" href="#">Sports</a></li>
 						<li><a class="px-3" href="#">Health</a></li>
 						<li><a class="px-3" href="#">Opinion</a></li>
-						<li><a class="pl-3" href="#">Ndelible</a></li>
+						<li><a class="px-3" href="#">Ndelible</a></li>
 					</ul>
-					<input class="" id="search" type="text" placeholder="Search" />
+					<input class="border-0 p-0 mr-auto" id="search" type="text" placeholder="Search" />
+					<!--<span class="oi oi-magnifying-glass mr-auto" style="color: #aaa; height: 16px; width: 16px;"></span>-->
 				</nav>
 			</div>
 		</div>
@@ -127,7 +128,7 @@
 
 			function hideNavBar(){
 				$search.addClass('w-100');
-				$linksnav.hide();
+				$linksnav.hide(1000, 'swing');
 			}
 
 			function showNavBar(){
