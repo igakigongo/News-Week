@@ -28,6 +28,17 @@ body {
   text-transform: uppercase;
 }
 
+.container {
+  max-width: 1310px;
+}
+
+/* wrapper */
+@media (min-width: 576px) and (min-width: 992px){
+  .main .container {
+    width: 100%;
+  }
+}
+
 /* top story definitions */
 .top-story h4, .related {
   font-weight: 700;

@@ -108,15 +108,20 @@
 		</div>
 	</header>
 
-	<main id="main">
-		<div class="container bg-white mt-md-1">
+	<main class="main">
+		<div class="container bg-white mt-md-1 mx-auto">
 			<div class="row">
 				<div class="col-12 top-story pt-3 section-with-links">
 					<h6 class="section-title">top story</h6>
 					<article class="mb-2">
-						<a href="#">
-							<picture>
-								<img class="img-fluid" src="./assets/images/top-story/gettyimages-1129638660.jpg" alt="GettyImages-1129638660" title="" />		
+						<a class="w-100" href="#">
+							<picture class="w-100">
+								<!--[if IE 9]><video style="display: none;"><![endif]-->
+								<source data-srcset="./assets/images/top-story/gettyimages-1129638660.jpg 1x" media="(min-width: 768px)" srcset="./assets/images/top-story/gettyimages-1129638660.jpg 1x">
+								<source data-srcset="./assets/images/top-story/gettyimages-1129638660x481.jpg 1x" media="(min-width: 481px)" srcset="./assets/images/top-story/gettyimages-1129638660x481.jpg 1x">
+								<source data-srcset="./assets/images/top-story/gettyimages-1129638660.jpg 1x" media="(min-width: 0px)" srcset="./assets/images/top-story/gettyimages-1129638660.jpg 1x">
+								<!--[if IE 9]></video><![endif]-->
+								<img class="img-fluid" src="./assets/images/top-story/gettyimages-1129638660.jpg" alt="Donald Trump China tariffs trade war" title="" />		
 							</picture>
 						</a>
 					</article>
