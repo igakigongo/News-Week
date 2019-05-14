@@ -13,6 +13,7 @@ html {
 body {
   background-color: var(--bg-color);
   color: #333;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 13px;
   min-width: 320px;
 }
@@ -23,7 +24,34 @@ body {
 
 .section-title {
   color: var(--title-color);
-  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+/* top story definitions */
+.top-story h4, .related {
+  font-weight: 700;
+}
+
+.top-story h4 {
+  font-size: 22px;
+}
+
+.related {
+  font-size: 19px;
+}
+
+.related li {
+  padding: 10px 0;
+}
+
+.section-with-links a{
+  color: var(--black);
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+.summary {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 13px;
 }
