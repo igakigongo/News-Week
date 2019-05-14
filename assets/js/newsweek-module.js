@@ -1,3 +1,5 @@
+'use strict'
+
 var myModule = (function($){
 
   // cache dom
@@ -22,7 +24,7 @@ var myModule = (function($){
 
   // can pass more stuff into the init - public func
   const init = () => {
-    console.log('initializing module');
+    console.log('initializing newsweek module');
   }
 
   return {

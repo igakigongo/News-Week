@@ -1,21 +1,29 @@
 /* general styles and bootstrap overrides */
 :root {
- --bg-color: #f4f5f6;
- --black: #000;
- --red: #f72210;
+  --bg-color: #f4f5f6;
+  --black: #000;
+  --red: #f72210;
+  --title-color: rgba(3,3,3,.4);
 }
 
 html {
- font-size: 100%;
+  font-size: 100%;
 }
 
 body {
- background-color: var(--bg-color);
- color: #333;
- font-size: 13px;
- min-width: 320px;
+  background-color: var(--bg-color);
+  color: #333;
+  font-size: 13px;
+  min-width: 320px;
 }
 
 .bg-red {
- background-color: var(--red)
+  background-color: var(--red)
+}
+
+.section-title {
+  color: var(--title-color);
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
