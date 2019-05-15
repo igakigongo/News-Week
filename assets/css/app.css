@@ -3,6 +3,7 @@
   --bg-color: #f4f5f6;
   --black: #000;
   --red: #f72210;
+  --semi-dark-gray: #555;
   --title-color: rgba(3,3,3,.4);
 }
 
@@ -91,4 +92,30 @@ body {
 .summary {
   font-family: Arial,Helvetica,sans-serif;
   font-size: 13px;
+}
+
+/* opinion column */
+.opinion {
+  margin-bottom: 2.5rem;
+}
+
+.columist-image {
+  height: 63px;
+  width: auto;
+}
+
+.opinion .info {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.opinion .info a {
+  color: var(--black);
+  font-weight: 700;
+}
+
+.opinion .info .byline {
+  color: var(--semi-dark-gray);
+  font-size: 14px;
+  text-transform: uppercase;
 }
