@@ -40,7 +40,7 @@ body {
 }
 
 /* top story definitions */
-.top-story h4, .more-stories h4, .related {
+.top-story h4, .more-stories h4, .featured-stories h4, .related {
   font-weight: 700;
 }
 
@@ -50,6 +50,10 @@ body {
 
 .more-stories h4 {
   font-size: 17px;
+}
+
+.featured-stories h4 {
+  font-size: 20px;
 }
 
 .related {
@@ -64,6 +68,24 @@ body {
   color: var(--black);
   font-weight: inherit;
   text-decoration: none;
+}
+
+.featured-stories .related li a {
+  font-size: 17px;
+}
+
+.featured-stories article:first-of-type .related li a {
+  color: var(--red);
+}
+
+@media (min-width: 992px) {
+  .featured-stories article:first-of-type .related li a {
+    color: var(--black);
+  }
+
+  .featured-stories article:last-of-type .related {
+    border-bottom: 1px solid #dee2e6!important;
+  }
 }
 
 .summary {
