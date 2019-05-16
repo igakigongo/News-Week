@@ -104,14 +104,13 @@ body {
   width: auto;
 }
 
-.opinion .info {
+.opinion .info, .latest-news .info {
   font-size: 17px;
   font-weight: 700;
 }
 
-.opinion .info a {
+.opinion .info a, .latest-news .info a {
   color: var(--black);
-  font-weight: 700;
 }
 
 .opinion .info .byline {
