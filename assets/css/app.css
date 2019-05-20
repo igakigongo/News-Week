@@ -205,18 +205,18 @@ body {
 }
 
 @media (min-width: 768px){
-  .longer-image {
+  .magazine .longer-image {
     overflow: hidden;
     display: flex;
     justify-content: center;
   }
 
-  .longer-image img {
+  .magazine .longer-image img {
     width: auto;
     height: auto;
   }
 
-  .article-link {
+  .magazine .article-link {
     font-size: 20px;
   }
 }
