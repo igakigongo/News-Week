@@ -20,7 +20,15 @@ body {
 }
 
 .bg-red {
-  background-color: var(--red)
+  background-color: var(--red)!important;
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.text-white {
+  color: var(--white)!important;
 }
 
 .section-title {
@@ -232,19 +240,3 @@ body {
   height: 100%;
   padding: 7px;
 }
-
-.flow-from-bottom {
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  padding-left: 15px;
-}
-
-.flow-from-bottom .text-center {
-  background-color: #f4f5f6;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 16px 0;
-  text-transform: uppercase;
-}
-
