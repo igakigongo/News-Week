@@ -184,7 +184,7 @@ body {
     height: auto;
   }
 
-  .magazine .article-link {
+  .article-link {
     font-size: 17px;
     font-weight: 700;
   }
@@ -192,18 +192,18 @@ body {
 }
 
 @media (min-width: 768px){
-  .magazine .longer-image {
+  .longer-image {
     overflow: hidden;
     display: flex;
     justify-content: center;
   }
 
-  .magazine .longer-image img {
+  .longer-image img {
     width: auto;
     height: auto;
   }
 
-  .magazine .article-link {
+  .article-link {
     font-size: 20px;
   }
 }
