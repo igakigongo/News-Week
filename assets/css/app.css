@@ -19,19 +19,16 @@ body {
   min-width: 320px;
 }
 
-@media (min-width: 576px){
-  .border-md-bottom-0 {
-    border-bottom: none!important;
-  }
-}
-
-
 .bg-red {
   background-color: var(--red)!important;
 }
 
 .bg-white {
   background-color: var(--white);
+}
+
+.border-radius-0 {
+  border-radius: 2px;
 }
 
 .text-red {
@@ -263,4 +260,47 @@ body {
   color: var(--white);
   height: 100%;
   padding: 7px;
+}
+
+/* 2x3 section */
+@media (min-width: 576px){
+  .border-md-bottom-0 {
+    border-bottom: none!important;
+  }
+}
+
+/* subscribe section */
+.topic1, .topic2 {
+  overflow: auto;
+}
+
+.topic-img {
+  float: left;
+}
+
+@media (max-width: 767.98px){
+  .topic1 {
+    border-bottom: 1px solid #dee2e6;
+  }
+}
+
+@media (min-width: 992px) {
+  .topic1 {
+    border-bottom: 1px solid #dee2e6;
+  }
+}
+
+@media (min-width: 768px) {
+  .topic1, .topic2 {
+    overflow: hidden;
+  }
+
+  .topic1 a, .topic2 a {
+    height: inherit;
+  }
+
+  .topic-img {
+    height: 100%;
+    width: auto;
+  }
 }
