@@ -31,6 +31,10 @@ body {
   border-radius: 2px;
 }
 
+.text-black {
+  color: var(--black);
+}
+
 .text-red {
   color: var(--red);
 }
