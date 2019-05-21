@@ -55,7 +55,7 @@ body {
 
 /* wrapper */
 @media (min-width: 576px) and (min-width: 992px){
-  .main .container {
+  .main .container, .footer .container {
     width: 100%;
   }
 }

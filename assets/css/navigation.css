@@ -146,3 +146,16 @@
 	outline: none;
 }
 
+.footer { 
+	color: #666;
+}
+
+.footer svg {
+	fill: var(--red);
+	height: 2.25rem;
+	width: 14.75rem;
+}
+
+/* .social-links {
+	color: #666;
+} */
