@@ -19,12 +19,23 @@ body {
   min-width: 320px;
 }
 
+@media (min-width: 576px){
+  .border-md-bottom-0 {
+    border-bottom: none!important;
+  }
+}
+
+
 .bg-red {
   background-color: var(--red)!important;
 }
 
 .bg-white {
   background-color: var(--white);
+}
+
+.text-red {
+  color: var(--red);
 }
 
 .text-white {
@@ -111,7 +122,7 @@ body {
   width: auto;
 }
 
-.opinion .info, .latest-news .info {
+.opinion .info, .latest-news .info, .section-picks .info {
   font-size: 17px;
   font-weight: 700;
 }
