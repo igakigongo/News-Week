@@ -333,8 +333,25 @@ body {
   line-height: 15px;
 }
 
-.footer .pr-4{
-  padding-right: 20px!important;
+.footer .navbar-nav .nav-link {
+  padding: 0 10px;
+  margin: .25rem 10px .25rem 0;
+}
+
+@media (min-width: 992px){
+  .footer span.editions {
+    padding-top: 10px!important;
+  }
+}
+
+@media (min-width: 768px){
+  .footer .navbar-nav .nav-link {
+    border-right: 1px solid #dee2e6;
+  }
+
+  .footer .navbar-nav .nav-link:last-of-type {
+    border-right: none;
+  }
 }
 
 .footer .navbar .nav-item {
