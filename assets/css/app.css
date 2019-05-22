@@ -308,3 +308,19 @@ body {
     width: auto;
   }
 }
+
+/* footer section */
+.footer {
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.footer .pr-4{
+  padding-right: 20px!important;
+}
+
+.footer .navbar .nav-item {
+  color: #666;
+}
