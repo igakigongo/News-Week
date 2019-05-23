@@ -1,0 +1,10 @@
+linters:
+  stylelint:
+        fixer: true
+files:
+  ignore:
+    - 'bower_components/*'
+    - 'node_modules/*'
+
+fixers:
+  enabled: true

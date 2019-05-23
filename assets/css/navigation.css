@@ -1,0 +1,161 @@
+/* main navigation */
+.main-nav, .secondary-nav {
+	color: var(--white);
+	cursor: default;
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+.main-nav .navbar {
+	padding: .35rem 1rem;
+}
+
+.main-nav .navbar-brand {
+	cursor: default;
+	margin: 0;
+	padding: 0;
+}
+
+.main-nav .brand svg {
+	fill: var(--white);
+	height: 1.25rem;
+	width: 8.25rem;
+}
+
+.main-nav ul li {
+	color: var(--white);
+	font-size: 0.875rem;
+	font-weight: 700;
+	padding: 2px 4px;
+}
+
+.main-nav ul li:last-child {
+	margin-right: 0;
+}
+
+.main-nav ul li a {
+	color: inherit;
+	cursor: default;
+	font-size: 14px;
+	font-weight: inherit;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.main-nav .subscribe, .secondary-nav .subscribe {
+	background-color: var(--white);
+	margin-right: 0;
+}
+
+.main-nav .subscribe a, .secondary-nav .subscribe a {
+	color: var(--red);
+}
+
+/* secondary navigation */
+.secondary-nav {
+	cursor: default;
+	padding: 0;
+}
+
+.secondary-nav .navbar {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.secondary-nav .navbar-brand {
+	cursor: pointer;
+	margin: 0;
+	padding: 10px 15px;
+}
+
+.secondary-nav .brand svg {
+	fill: var(--white);
+	height: 4.375rem;
+	width: 24.75rem;
+}
+
+.secondary-nav ul li {
+	color: var(--white);
+	font-size: 0.875rem;
+	font-weight: 700;
+	padding: 6px;
+}
+
+.secondary-nav ul li a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.secondary-nav .date {
+	cursor: text;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.secondary-nav ul:last-child li {
+	font-size: 1.125rem;
+}
+
+.secondary-nav ul:last-child li a {
+	font-size: inherit;
+	text-transform: uppercase;
+}
+
+.secondary-nav .subscribe a::after {
+	border-style: solid;
+  border-width: 0.15em 0.15em 0 0;
+	content: '';
+	display: inline-block;
+	height: .65em;
+	left: 0;
+	position: relative;
+	top: 0.25em;
+	transform: rotate(45deg);
+	vertical-align: top;
+  width: .65em;
+  margin: 0.25rem 0;
+  font-size: 0.875rem;
+  margin-right: .25rem;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+	.secondary-nav {
+		max-width: 100%;
+	}
+}
+
+/* links navigation */
+.links-nav {
+	background-color: var(--white);
+}
+
+.links-nav ul li {
+	color: var(--black);
+	font-size: 1.3125rem;
+	padding: 0;
+}
+
+.links-nav ul li a {
+	border-left: 1px solid #aaa;
+}
+
+.links-nav input[type=text]{
+	font-size: 1.3125rem;
+	font-weight: 100;
+	width: 60px;
+	outline: none;
+}
+
+.footer { 
+	color: #666;
+}
+
+.footer svg {
+	fill: var(--red);
+	height: 2.25rem;
+	width: 14.75rem;
+}
+
+/* .social-links {
+	color: #666;
+} */
