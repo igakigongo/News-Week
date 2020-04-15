@@ -9,13 +9,6 @@ Trying out Twitter’s Bootstrap framework by building a site that actually uses
 * Work your way down the page by filling in and positioning the additional sections.
 * Try resizing the browser to see if it mimics the behavior of the real Newsweek homepage.
 
-### Clone and Original Website References
-
-For the demo website please refer to this [link](https://igakigongo.github.io/News-Week/), and for a reference to the live original NewsWeek website please refer to this [link](https://www.newsweek.com/).
-
-### Reference Material
-Please visit the section of the Odin Project that talks about this [project](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap) to read more upon what should be done.
-
 ### Screenshots
 
 #### Bootstrap XS - Media Screen
@@ -34,6 +27,18 @@ Please visit the section of the Odin Project that talks about this [project](htt
 
 ![](screenshots/lg.png)
 
+### Clone and Original Website References
+
+For the demo website please refer to this [link](https://igakigongo.github.io/News-Week/), and for a reference to the live original NewsWeek website please refer to this [link](https://www.newsweek.com/).
+
+### Reference Material
+Please visit the section of the Odin Project that talks about this [project](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap) to read more upon what should be done.
+
 ### Contributors
 
 - [Edward Iga Kigongo](github.com/igakigongo)
+
+### Contact
+* Email: igakigongo@gmail.com
+* LinkedIn: https://www.linkedin.com/in/igakigongo/
+* PluralSight: https://app.pluralsight.com/profile/edward-iga
